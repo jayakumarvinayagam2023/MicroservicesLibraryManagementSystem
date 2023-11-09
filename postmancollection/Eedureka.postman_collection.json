@@ -1,0 +1,139 @@
+{
+	"info": {
+		"_postman_id": "4ddbc9a1-03db-402e-9eb8-9e3330ab971c",
+		"name": "Eedureka",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "31070249"
+	},
+	"item": [
+		{
+			"name": "Author",
+			"item": [
+				{
+					"name": "GetAuthor",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Jayakumar Vnayagam\",\r\n    \"country\": \"India\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseurl}}authors",
+							"host": [
+								"{{baseurl}}authors"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "CreateAuthor",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\r\n  \"authorId\": \"3fa85f64-5717-4562-b3fc-2c963f66afa6\",\r\n  \"name\": \"Jayakumar\",\r\n  \"country\": \"India\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseurl}}authors",
+							"host": [
+								"{{baseurl}}authors"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "UpdateAuthor",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"name\": \"Jayakumar Vinayagam 008\",\r\n  \"country\": \"India\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseurl}}authors/08dbe15a-ac04-4f1f-8e35-d2a7ad3c67dd",
+							"host": [
+								"{{baseurl}}authors"
+							],
+							"path": [
+								"08dbe15a-ac04-4f1f-8e35-d2a7ad3c67dd"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DeleteAuthor",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"name\": \"Jayakumar Vinayagam 008\",\r\n  \"country\": \"India\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseurl}}authors/08dbe15a-ac04-4f1f-8e35-d2a7ad3c67dd",
+							"host": [
+								"{{baseurl}}authors"
+							],
+							"path": [
+								"08dbe15a-ac04-4f1f-8e35-d2a7ad3c67dd"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetAuthorByAuthorId",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseurl}}authors/8cb582f8-86f9-4abf-8cb0-e4213f2efb8d",
+							"host": [
+								"{{baseurl}}authors"
+							],
+							"path": [
+								"8cb582f8-86f9-4abf-8cb0-e4213f2efb8d"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"variable": [
+		{
+			"key": "baseurl",
+			"value": "http://localhost:5206/api/"
+		}
+	]
+}

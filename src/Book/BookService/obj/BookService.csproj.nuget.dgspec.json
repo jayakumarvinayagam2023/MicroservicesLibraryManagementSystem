@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\edureka-training\\MicroservicesApplications\\MicroservicesLibraryManagementSystem\\src\\BookService\\BookService.csproj": {}
+    "D:\\edureka-training\\MicroservicesApplications\\MicroservicesLibraryManagementSystem\\src\\Book\\BookService\\BookService.csproj": {}
   },
   "projects": {
-    "D:\\edureka-training\\MicroservicesApplications\\MicroservicesLibraryManagementSystem\\src\\BookService\\BookService.csproj": {
+    "D:\\edureka-training\\MicroservicesApplications\\MicroservicesLibraryManagementSystem\\src\\Book\\BookService\\BookService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\edureka-training\\MicroservicesApplications\\MicroservicesLibraryManagementSystem\\src\\BookService\\BookService.csproj",
+        "projectUniqueName": "D:\\edureka-training\\MicroservicesApplications\\MicroservicesLibraryManagementSystem\\src\\Book\\BookService\\BookService.csproj",
         "projectName": "BookService",
-        "projectPath": "D:\\edureka-training\\MicroservicesApplications\\MicroservicesLibraryManagementSystem\\src\\BookService\\BookService.csproj",
+        "projectPath": "D:\\edureka-training\\MicroservicesApplications\\MicroservicesLibraryManagementSystem\\src\\Book\\BookService\\BookService.csproj",
         "packagesPath": "C:\\Users\\Jay\\.nuget\\packages\\",
-        "outputPath": "D:\\edureka-training\\MicroservicesApplications\\MicroservicesLibraryManagementSystem\\src\\BookService\\obj\\",
+        "outputPath": "D:\\edureka-training\\MicroservicesApplications\\MicroservicesLibraryManagementSystem\\src\\Book\\BookService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Jay\\AppData\\Roaming\\NuGet\\NuGet.Config",

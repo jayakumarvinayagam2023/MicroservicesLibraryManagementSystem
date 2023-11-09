@@ -5,11 +5,11 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F07DA410-E8F2-4798-A175-061A9A07B7D1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthorService", "src\AuthorService\AuthorService.csproj", "{E0FD7ABD-6986-4F98-9531-704379E0AE02}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthorService", "src\Author\AuthorService\AuthorService.csproj", "{E0FD7ABD-6986-4F98-9531-704379E0AE02}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookService", "src\BookService\BookService.csproj", "{AE4D8ACA-F071-492E-A699-74D8F0DABA19}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookService", "src\Book\BookService\BookService.csproj", "{AE4D8ACA-F071-492E-A699-74D8F0DABA19}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BorrowingService", "src\BorrowingService\BorrowingService.csproj", "{2BDF470F-0D29-4F07-80B6-2356E7CCFFBA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BorrowingService", "src\Borrowing\BorrowingService\BorrowingService.csproj", "{2BDF470F-0D29-4F07-80B6-2356E7CCFFBA}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{CBA83345-D12F-4BFC-8C33-897319321E09}"
 EndProject

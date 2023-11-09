@@ -177,3 +177,20 @@ Project `test\BookServiceTest\BookServiceTest.csproj` added to the solution.
 PS D:\edureka-training\MicroservicesApplications\MicroservicesLibraryManagementSystem> dotnet sln .\MicroservicesLibraryManagementSystem.sln add .\test\BorrowingServiceTest\BorrowingServiceTest.csproj
 Project `test\BorrowingServiceTest\BorrowingServiceTest.csproj` added to the solution.
 PS D:\edureka-training\MicroservicesApplications\MicroservicesLibraryManagementSystem>
+
+
+
+
+Code 
+---
+Entities:
+
+Book: id, title, ISBN, author, status (available, borrowed)
+Author: id, name, country, list of books
+Borrowing Record: id, book, borrowing date, return date, user
+
+Nuget for Author
+----------------
+dotnet add package Microsoft.EntityFrameworkCore   
+dotnet add package Microsoft.EntityFrameworkCore.Tools
+dotnet add package MySql.EntityFrameworkCore   

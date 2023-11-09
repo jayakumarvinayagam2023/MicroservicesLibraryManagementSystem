@@ -465,11 +465,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\edureka-training\\MicroservicesApplications\\MicroservicesLibraryManagementSystem\\src\\BorrowingService\\BorrowingService.csproj",
+      "projectUniqueName": "D:\\edureka-training\\MicroservicesApplications\\MicroservicesLibraryManagementSystem\\src\\Borrowing\\BorrowingService\\BorrowingService.csproj",
       "projectName": "BorrowingService",
-      "projectPath": "D:\\edureka-training\\MicroservicesApplications\\MicroservicesLibraryManagementSystem\\src\\BorrowingService\\BorrowingService.csproj",
+      "projectPath": "D:\\edureka-training\\MicroservicesApplications\\MicroservicesLibraryManagementSystem\\src\\Borrowing\\BorrowingService\\BorrowingService.csproj",
       "packagesPath": "C:\\Users\\Jay\\.nuget\\packages\\",
-      "outputPath": "D:\\edureka-training\\MicroservicesApplications\\MicroservicesLibraryManagementSystem\\src\\BorrowingService\\obj\\",
+      "outputPath": "D:\\edureka-training\\MicroservicesApplications\\MicroservicesLibraryManagementSystem\\src\\Borrowing\\BorrowingService\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Jay\\AppData\\Roaming\\NuGet\\NuGet.Config",

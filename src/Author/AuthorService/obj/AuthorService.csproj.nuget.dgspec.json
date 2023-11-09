@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\edureka-training\\MicroservicesApplications\\MicroservicesLibraryManagementSystem\\src\\AuthorService\\AuthorService.csproj": {}
+    "D:\\edureka-training\\MicroservicesApplications\\MicroservicesLibraryManagementSystem\\src\\Author\\AuthorService\\AuthorService.csproj": {}
   },
   "projects": {
-    "D:\\edureka-training\\MicroservicesApplications\\MicroservicesLibraryManagementSystem\\src\\AuthorService\\AuthorService.csproj": {
+    "D:\\edureka-training\\MicroservicesApplications\\MicroservicesLibraryManagementSystem\\src\\Author\\AuthorService\\AuthorService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\edureka-training\\MicroservicesApplications\\MicroservicesLibraryManagementSystem\\src\\AuthorService\\AuthorService.csproj",
+        "projectUniqueName": "D:\\edureka-training\\MicroservicesApplications\\MicroservicesLibraryManagementSystem\\src\\Author\\AuthorService\\AuthorService.csproj",
         "projectName": "AuthorService",
-        "projectPath": "D:\\edureka-training\\MicroservicesApplications\\MicroservicesLibraryManagementSystem\\src\\AuthorService\\AuthorService.csproj",
+        "projectPath": "D:\\edureka-training\\MicroservicesApplications\\MicroservicesLibraryManagementSystem\\src\\Author\\AuthorService\\AuthorService.csproj",
         "packagesPath": "C:\\Users\\Jay\\.nuget\\packages\\",
-        "outputPath": "D:\\edureka-training\\MicroservicesApplications\\MicroservicesLibraryManagementSystem\\src\\AuthorService\\obj\\",
+        "outputPath": "D:\\edureka-training\\MicroservicesApplications\\MicroservicesLibraryManagementSystem\\src\\Author\\AuthorService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Jay\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -43,6 +43,20 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[7.0.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
