@@ -80,6 +80,8 @@ Mode                 LastWriteTime         Length Name
 ----                 -------------         ------ ----
 d-----         11/9/2023   8:23 AM                doc
 
+Create API project setup
+------------------------
 PS D:\edureka-training\MicroservicesApplications\MicroservicesLibraryManagementSystem> cd .\src\
 PS D:\edureka-training\MicroservicesApplications\MicroservicesLibraryManagementSystem\src> dotnet new webapi -o AuthorService
 The template "ASP.NET Core Web API" was created successfully.
@@ -123,11 +125,55 @@ d-----         11/9/2023   8:23 AM                test
 -a----         11/9/2023   8:22 AM            441 MicroservicesLibraryManagementSystem.sln
 -a----         11/9/2023   8:27 AM           5520 Reference.txt
 
-
+Add API projects to Solution
+----------------------------
 PS D:\edureka-training\MicroservicesApplications\MicroservicesLibraryManagementSystem> dotnet sln .\MicroservicesLibraryManagementSystem.sln add .\src\AuthorService\AuthorService.csproj
 Project `src\AuthorService\AuthorService.csproj` added to the solution.
 PS D:\edureka-training\MicroservicesApplications\MicroservicesLibraryManagementSystem> dotnet sln .\MicroservicesLibraryManagementSystem.sln add .\src\BookService\BookService.csproj
 Project `src\BookService\BookService.csproj` added to the solution.
 PS D:\edureka-training\MicroservicesApplications\MicroservicesLibraryManagementSystem> dotnet sln .\MicroservicesLibraryManagementSystem.sln add .\src\BorrowingService\BorrowingService.csproj
 Project `src\BorrowingService\BorrowingService.csproj` added to the solution.
+PS D:\edureka-training\MicroservicesApplications\MicroservicesLibraryManagementSystem>
+
+Create Unit test setup
+----------------------
+PS D:\edureka-training\MicroservicesApplications\MicroservicesLibraryManagementSystem> cd .\test\
+PS D:\edureka-training\MicroservicesApplications\MicroservicesLibraryManagementSystem\test> dotnet new nunit -o AuthorServiceTest
+The template "NUnit 3 Test Project" was created successfully.
+
+Processing post-creation actions...
+Restoring D:\edureka-training\MicroservicesApplications\MicroservicesLibraryManagementSystem\test\AuthorServiceTest\AuthorServiceTest.csproj:
+  Determining projects to restore...
+  Restored D:\edureka-training\MicroservicesApplications\MicroservicesLibraryManagementSystem\test\AuthorServiceTest\AuthorServiceTest.csproj (in 636 ms).
+Restore succeeded.
+
+
+PS D:\edureka-training\MicroservicesApplications\MicroservicesLibraryManagementSystem\test> dotnet new nunit -o BookServiceTest
+The template "NUnit 3 Test Project" was created successfully.
+
+Processing post-creation actions...
+Restoring D:\edureka-training\MicroservicesApplications\MicroservicesLibraryManagementSystem\test\BookServiceTest\BookServiceTest.csproj:
+  Determining projects to restore...
+  Restored D:\edureka-training\MicroservicesApplications\MicroservicesLibraryManagementSystem\test\BookServiceTest\BookServiceTest.csproj (in 348 ms).
+Restore succeeded.
+
+
+PS D:\edureka-training\MicroservicesApplications\MicroservicesLibraryManagementSystem\test> dotnet new nunit -o BorrowingServiceTest
+The template "NUnit 3 Test Project" was created successfully.
+
+Processing post-creation actions...
+Restoring D:\edureka-training\MicroservicesApplications\MicroservicesLibraryManagementSystem\test\BorrowingServiceTest\BorrowingServiceTest.csproj:
+  Determining projects to restore...
+  Restored D:\edureka-training\MicroservicesApplications\MicroservicesLibraryManagementSystem\test\BorrowingServiceTest\BorrowingServiceTest.csproj (in 360 ms).
+Restore succeeded.
+
+Add Unit test projects to Solution
+----------------------------------
+PS D:\edureka-training\MicroservicesApplications\MicroservicesLibraryManagementSystem\test> cd..
+PS D:\edureka-training\MicroservicesApplications\MicroservicesLibraryManagementSystem> dotnet sln .\MicroservicesLibraryManagementSystem.sln add .\test\AuthorServiceTest\AuthorServiceTest.csproj
+Project `test\AuthorServiceTest\AuthorServiceTest.csproj` added to the solution.
+PS D:\edureka-training\MicroservicesApplications\MicroservicesLibraryManagementSystem> dotnet sln .\MicroservicesLibraryManagementSystem.sln add .\test\BookServiceTest\BookServiceTest.csproj
+Project `test\BookServiceTest\BookServiceTest.csproj` added to the solution.
+PS D:\edureka-training\MicroservicesApplications\MicroservicesLibraryManagementSystem> dotnet sln .\MicroservicesLibraryManagementSystem.sln add .\test\BorrowingServiceTest\BorrowingServiceTest.csproj
+Project `test\BorrowingServiceTest\BorrowingServiceTest.csproj` added to the solution.
 PS D:\edureka-training\MicroservicesApplications\MicroservicesLibraryManagementSystem>
