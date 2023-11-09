@@ -31,3 +31,5 @@ D:\edureka-training\MicroservicesApplications\MicroservicesLibraryManagementSyst
 D:\edureka-training\MicroservicesApplications\MicroservicesLibraryManagementSystem\src\Book\BookService\obj\Debug\net7.0\BookService.pdb
 D:\edureka-training\MicroservicesApplications\MicroservicesLibraryManagementSystem\src\Book\BookService\obj\Debug\net7.0\BookService.genruntimeconfig.cache
 D:\edureka-training\MicroservicesApplications\MicroservicesLibraryManagementSystem\src\Book\BookService\obj\Debug\net7.0\ref\BookService.dll
+D:\edureka-training\MicroservicesApplications\MicroservicesLibraryManagementSystem\src\Book\BookService\bin\Debug\net7.0\LibraryManagementDomain.dll
+D:\edureka-training\MicroservicesApplications\MicroservicesLibraryManagementSystem\src\Book\BookService\bin\Debug\net7.0\LibraryManagementDomain.pdb
