@@ -40,3 +40,94 @@ Assessment Points:
     Proper implementation of the bonus features, if attempted.
 
 This assessment exercise should give you a good chance to showcase their deep understanding of both monolithic and microservices architectures in Spring Boot. Given your vast experiences, the challenge should be approachable while still allowing room for them to exhibit advanced skills and best practices.
+
+
+Powersheel script for setup
+---------------------------
+PS C:\Users\Jay> cd D:\edureka-training\MicroservicesApplications\MicroservicesLibraryManagementSystem
+PS D:\edureka-training\MicroservicesApplications\MicroservicesLibraryManagementSystem> dotnet new sln
+The template "Solution File" was created successfully.
+
+PS D:\edureka-training\MicroservicesApplications\MicroservicesLibraryManagementSystem> mkdir src
+
+
+    Directory: D:\edureka-training\MicroservicesApplications\MicroservicesLibraryManagementSystem
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         11/9/2023   8:23 AM                src
+
+
+PS D:\edureka-training\MicroservicesApplications\MicroservicesLibraryManagementSystem> mkdir test
+
+
+    Directory: D:\edureka-training\MicroservicesApplications\MicroservicesLibraryManagementSystem
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         11/9/2023   8:23 AM                test
+
+
+PS D:\edureka-training\MicroservicesApplications\MicroservicesLibraryManagementSystem> mkdir doc
+
+
+    Directory: D:\edureka-training\MicroservicesApplications\MicroservicesLibraryManagementSystem
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         11/9/2023   8:23 AM                doc
+
+PS D:\edureka-training\MicroservicesApplications\MicroservicesLibraryManagementSystem> cd .\src\
+PS D:\edureka-training\MicroservicesApplications\MicroservicesLibraryManagementSystem\src> dotnet new webapi -o AuthorService
+The template "ASP.NET Core Web API" was created successfully.
+
+Processing post-creation actions...
+Restoring D:\edureka-training\MicroservicesApplications\MicroservicesLibraryManagementSystem\src\AuthorService\AuthorService.csproj:
+  Determining projects to restore...
+  Restored D:\edureka-training\MicroservicesApplications\MicroservicesLibraryManagementSystem\src\AuthorService\AuthorService.csproj (in 294 ms).
+Restore succeeded.
+
+
+PS D:\edureka-training\MicroservicesApplications\MicroservicesLibraryManagementSystem\src> dotnet new webapi -o BookService
+The template "ASP.NET Core Web API" was created successfully.
+
+Processing post-creation actions...
+Restoring D:\edureka-training\MicroservicesApplications\MicroservicesLibraryManagementSystem\src\BookService\BookService.csproj:
+  Determining projects to restore...
+  Restored D:\edureka-training\MicroservicesApplications\MicroservicesLibraryManagementSystem\src\BookService\BookService.csproj (in 199 ms).
+Restore succeeded.
+
+
+PS D:\edureka-training\MicroservicesApplications\MicroservicesLibraryManagementSystem\src> dotnet new webapi -o BorrowingService
+The template "ASP.NET Core Web API" was created successfully.
+
+Processing post-creation actions...
+Restoring D:\edureka-training\MicroservicesApplications\MicroservicesLibraryManagementSystem\src\BorrowingService\BorrowingService.csproj:
+  Determining projects to restore...
+  Restored D:\edureka-training\MicroservicesApplications\MicroservicesLibraryManagementSystem\src\BorrowingService\BorrowingService.csproj (in 180 ms).
+Restore succeeded.
+PS D:\edureka-training\MicroservicesApplications\MicroservicesLibraryManagementSystem> ls
+
+
+    Directory: D:\edureka-training\MicroservicesApplications\MicroservicesLibraryManagementSystem
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         11/9/2023   8:23 AM                doc
+d-----         11/9/2023   8:25 AM                src
+d-----         11/9/2023   8:23 AM                test
+-a----         11/9/2023   8:22 AM            441 MicroservicesLibraryManagementSystem.sln
+-a----         11/9/2023   8:27 AM           5520 Reference.txt
+
+
+PS D:\edureka-training\MicroservicesApplications\MicroservicesLibraryManagementSystem> dotnet sln .\MicroservicesLibraryManagementSystem.sln add .\src\AuthorService\AuthorService.csproj
+Project `src\AuthorService\AuthorService.csproj` added to the solution.
+PS D:\edureka-training\MicroservicesApplications\MicroservicesLibraryManagementSystem> dotnet sln .\MicroservicesLibraryManagementSystem.sln add .\src\BookService\BookService.csproj
+Project `src\BookService\BookService.csproj` added to the solution.
+PS D:\edureka-training\MicroservicesApplications\MicroservicesLibraryManagementSystem> dotnet sln .\MicroservicesLibraryManagementSystem.sln add .\src\BorrowingService\BorrowingService.csproj
+Project `src\BorrowingService\BorrowingService.csproj` added to the solution.
+PS D:\edureka-training\MicroservicesApplications\MicroservicesLibraryManagementSystem>
