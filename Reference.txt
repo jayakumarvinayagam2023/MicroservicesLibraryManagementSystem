@@ -1,0 +1,42 @@
+Part 2: Microservices Architecture
+Splitting the Monolithic App:
+
+Author Service
+
+Maintains details about authors.
+    Provides an endpoint to retrieve all books by an author.
+    Book Service
+
+Maintains the book catalog.
+    Allows borrowing and returning of books. However, when a book is borrowed or returned, it sends a request to the Borrowing Service to create/update the borrowing record.
+    
+Borrowing Service
+    Maintains borrowing records.
+    Provides an endpoint to retrieve all borrowed books by a user.
+
+Requirements:
+    Each service should have its own database.
+    Services should communicate using REST templates.
+    Implement proper error handling. For instance, if the Borrowing Service is down, the Book Service should not allow borrowing a book.
+    Handle scenarios where a book is added or removed. The corresponding author's list of books should be updated.
+    Implement an endpoint in the Borrowing Service to find all overdue books.
+
+Bonus (for candidates to show extra effort):
+    Implement service discovery using Spring Eureka.
+    Add client-side load balancing with Ribbon.
+    Implement API Gateway using Spring Cloud Gateway or Zuul.
+
+Guidelines:
+    Each service should be a separate Spring Boot application.
+    All inter-service communication should be handled via REST calls.
+    Ensure transactional consistency across services. For example, if the Borrowing Service fails to create a record, the Book Service should mark the book as available.
+    Use H2 or an embedded database for simplicity.
+
+Assessment Points:
+    Proper division of responsibilities among services.
+    Adherence to RESTful principles.
+    Proper error handling and transaction management across services.
+    Quality and clarity of the code, including meaningful variable names, modularity, and inclusion of comments.
+    Proper implementation of the bonus features, if attempted.
+
+This assessment exercise should give you a good chance to showcase their deep understanding of both monolithic and microservices architectures in Spring Boot. Given your vast experiences, the challenge should be approachable while still allowing room for them to exhibit advanced skills and best practices.
