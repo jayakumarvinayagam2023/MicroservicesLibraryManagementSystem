@@ -194,3 +194,14 @@ Nuget for Author
 dotnet add package Microsoft.EntityFrameworkCore   
 dotnet add package Microsoft.EntityFrameworkCore.Tools
 dotnet add package MySql.EntityFrameworkCore   
+
+Book
+----
+dotnet add package Microsoft.EntityFrameworkCore   
+dotnet add package Microsoft.EntityFrameworkCore.Tools
+dotnet add package MySql.EntityFrameworkCore.SqlServer
+
+Data Migration
+--------------
+dotnet ef migrations add mg_dec_1_0_1  
+dotnet ef database update 
