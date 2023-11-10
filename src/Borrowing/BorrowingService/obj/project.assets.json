@@ -505,6 +505,16 @@
         "build": {
           "buildTransitive/net6.0/System.Text.Json.targets": {}
         }
+      },
+      "LibraryManagementDomain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/LibraryManagementDomain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LibraryManagementDomain.dll": {}
+        }
       }
     }
   },
@@ -1464,10 +1474,16 @@
         "system.text.json.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "LibraryManagementDomain/1.0.0": {
+      "type": "project",
+      "path": "../../LibraryManagementDomain/LibraryManagementDomain.csproj",
+      "msbuildProject": "../../LibraryManagementDomain/LibraryManagementDomain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "LibraryManagementDomain >= 1.0.0",
       "Microsoft.AspNetCore.OpenApi >= 7.0.3",
       "Microsoft.EntityFrameworkCore >= 7.0.13",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.13",
@@ -1501,7 +1517,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\edureka-training\\MicroservicesApplications\\MicroservicesLibraryManagementSystem\\src\\LibraryManagementDomain\\LibraryManagementDomain.csproj": {
+              "projectPath": "D:\\edureka-training\\MicroservicesApplications\\MicroservicesLibraryManagementSystem\\src\\LibraryManagementDomain\\LibraryManagementDomain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -31,3 +31,15 @@ D:\edureka-training\MicroservicesApplications\MicroservicesLibraryManagementSyst
 D:\edureka-training\MicroservicesApplications\MicroservicesLibraryManagementSystem\src\Borrowing\BorrowingService\obj\Debug\net7.0\BorrowingService.pdb
 D:\edureka-training\MicroservicesApplications\MicroservicesLibraryManagementSystem\src\Borrowing\BorrowingService\obj\Debug\net7.0\BorrowingService.genruntimeconfig.cache
 D:\edureka-training\MicroservicesApplications\MicroservicesLibraryManagementSystem\src\Borrowing\BorrowingService\obj\Debug\net7.0\ref\BorrowingService.dll
+D:\edureka-training\MicroservicesApplications\MicroservicesLibraryManagementSystem\src\Borrowing\BorrowingService\bin\Debug\net7.0\Humanizer.dll
+D:\edureka-training\MicroservicesApplications\MicroservicesLibraryManagementSystem\src\Borrowing\BorrowingService\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+D:\edureka-training\MicroservicesApplications\MicroservicesLibraryManagementSystem\src\Borrowing\BorrowingService\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\edureka-training\MicroservicesApplications\MicroservicesLibraryManagementSystem\src\Borrowing\BorrowingService\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\edureka-training\MicroservicesApplications\MicroservicesLibraryManagementSystem\src\Borrowing\BorrowingService\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\edureka-training\MicroservicesApplications\MicroservicesLibraryManagementSystem\src\Borrowing\BorrowingService\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+D:\edureka-training\MicroservicesApplications\MicroservicesLibraryManagementSystem\src\Borrowing\BorrowingService\bin\Debug\net7.0\Mono.TextTemplating.dll
+D:\edureka-training\MicroservicesApplications\MicroservicesLibraryManagementSystem\src\Borrowing\BorrowingService\bin\Debug\net7.0\Npgsql.dll
+D:\edureka-training\MicroservicesApplications\MicroservicesLibraryManagementSystem\src\Borrowing\BorrowingService\bin\Debug\net7.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+D:\edureka-training\MicroservicesApplications\MicroservicesLibraryManagementSystem\src\Borrowing\BorrowingService\bin\Debug\net7.0\System.CodeDom.dll
+D:\edureka-training\MicroservicesApplications\MicroservicesLibraryManagementSystem\src\Borrowing\BorrowingService\bin\Debug\net7.0\LibraryManagementDomain.dll
+D:\edureka-training\MicroservicesApplications\MicroservicesLibraryManagementSystem\src\Borrowing\BorrowingService\bin\Debug\net7.0\LibraryManagementDomain.pdb

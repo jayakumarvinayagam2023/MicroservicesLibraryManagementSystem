@@ -1,4 +1,5 @@
 using LibraryManagementDomain;
+
 namespace BookService.Domain;
 public class Book : EntityBase
 {
