@@ -205,3 +205,14 @@ Data Migration
 --------------
 dotnet ef migrations add mg_dec_1_0_1  
 dotnet ef database update 
+
+
+borrowing
+---------
+dotnet add package Microsoft.EntityFrameworkCore   
+dotnet add package Microsoft.EntityFrameworkCore.Tools
+dotnet add package Npgsql.EntityFrameworkCore.PostgreSQL
+
+"WebApiDatabase": "Host=localhost; Database=; Username=; Password="
+
+options.UseNpgsql(Configuration.GetConnectionString("WebApiDatabase"));
